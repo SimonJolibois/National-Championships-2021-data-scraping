@@ -61,6 +61,8 @@ def formating_metadata(i):
         nage = 'papillon'
     elif type == 'Brasse':
         nage = 'brasse'
+    elif type == '4Nages':
+        nage = 'individual_medley'
     else:
         print("Error: metadata[type] unknown: "+ type)
 
